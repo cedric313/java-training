@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class MatrixTraining {
 
     /**
@@ -7,8 +9,8 @@ public class MatrixTraining {
      * ie: {{0, 0}, {0, 0}, {0, 0}}
      */
     public int[][] emptyIntMatrix(int lines, int columns) {
-
-        return null;
+        int[][] matrice = new int[lines][columns];
+        return matrice;
     }
 
     /**
@@ -18,8 +20,8 @@ public class MatrixTraining {
      * ie: {{null, null, null}, {null, null, null}}
      */
     public String[][] emptyStringMatrix(int lines, int columns) {
-
-        return null;
+        //String[][] matrice =
+        return new String[lines][columns];
     }
 
     /**
@@ -29,7 +31,7 @@ public class MatrixTraining {
      * @return an int matrix with a, b and c arrays
      */
     public int[][] intMatrix(int[] a, int[] b, int[] c) {
-
+        int[][][] newMatrix = new int[a][b][c];
         return null;
     }
 
