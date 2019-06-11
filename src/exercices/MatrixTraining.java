@@ -31,8 +31,12 @@ public class MatrixTraining {
      * @return an int matrix with a, b and c arrays
      */
     public int[][] intMatrix(int[] a, int[] b, int[] c) {
-        int[][][] newMatrix = new int[a][b][c];
-        return null;
+        int[][] newMatrix = new int[3][];
+	newMatrix[0] = a;
+	newMatrix[1] = b;
+	newMatrix[2] = c;
+	
+        return newMatrix;
     }
 
     /**
